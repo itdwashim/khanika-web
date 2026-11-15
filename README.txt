@@ -4,12 +4,12 @@ The same app as the desktop and Android versions, running in any browser and ins
 to the home screen / desktop. Works offline after the first visit.
 
 PUT IT ON THE INTERNET (GitHub Pages, free)
- 1. On GitHub create a NEW repository (for example "khanika-app"). Do not reuse the website repository.
+ 1. On GitHub create a NEW repository (for example "khanika-web"). Do not reuse the website repository.
  2. Upload everything in this folder (index.html, web-shim.js, sw.js, manifest.webmanifest,
     the vendor and icons folders, .nojekyll and the .github folder) to the repository, branch "main".
  3. Repository > Settings > Pages > Build and deployment > Source: "GitHub Actions".
     (The included workflow .github/workflows/deploy-web.yml then publishes it on every upload.)
- 4. After about a minute the app is at   https://YOUR-NAME.github.io/khanika-app/
+ 4. After about a minute the app is at   https://YOUR-NAME.github.io/khanika-web/
     Open it, and:
       Phone (Chrome):  tap "Install" in the banner, or menu > Add to Home screen.
       iPhone (Safari): Share > Add to Home Screen.
